@@ -14,21 +14,22 @@ if [ ! -z $1 ]; then
 fi
 echo -e "${GREEN}"
 cat <<"EOF"
- __  __ _    _  ___        __      _       _    __ _ _           
-|  \/  | |  | || \ \      / /   __| | ___ | |_ / _(_) | ___  ___ 
-| |\/| | |  | || |\ \ /\ / /   / _` |/ _ \| __| |_| | |/ _ \/ __|
-| |  | | |__|__   _\ V  V /   | (_| | (_) | |_|  _| | |  __/\__ \
-|_|  |_|_____| |_|  \_/\_/     \__,_|\___/ \__|_| |_|_|\___||___/
+  _    _ _______                  
+ | |  | |__   __|      _       _    __ _ _
+ | |  | |  | |      __| | ___ | |_ / _(_) | ___  ___ 
+ | |  | |  | |     / _` |/ _ \| __| |_| | |/ _ \/ __|
+ | |__| |  | |    | (_| | (_) | |_|  _| | |  __/\__ \
+  \____/   |_|     \__,_|\___/ \__|_| |_|_|\___||___/
                                                                  
 EOF
 echo -e "${NONE}"
 
 echo "Version: $version"
-echo "by Stephan Raabe 2024"
+echo "by UnluckyTech 2024"
 echo ""
 if [ -d ~/dotfiles ] ;then
     echo "A ML4W dotfiles installation has been detected."
-    echo "This script will guide you through the update process of the ML4W dotfiles."
+    echo "This script will guide you through the update process of the dotfiles."
 else
     echo "This script will guide you through the installation process of the ML4W dotfiles."
 fi
